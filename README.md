@@ -8,7 +8,7 @@ This folder contains the following files for the source code:
 - `master-mind.c` ... the main C program for the CW implementation, and most aux fcts
 - `mm-matches.s`  ... the matching function, implemented in ARM Assembler
 - `lcdBinary.c`   ... the low-level code for hardware interaction with LED, and button;
-                      this should be implemented in inline Assembler; 
+                      this is implemented in inline Assembler; 
 - `testm.c`       ... a testing function to test C vs Assembler implementations of the matching function
 - `test.sh`       ... a script for unit testing the matching function, using the -u option of the main prg
 
